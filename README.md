@@ -17,9 +17,28 @@ An example which demonstrates Client/Server integration and "oneway" asynchronou
 
 ## Example.thrift
 
-This is code exampl
+This is the example service DDL, which has 2 methods. One to return current time stamp synchronously and one to make a job which takes 10 seconds but work asynchronously
+
     namespace php Example
     service Example{
         string showCurrentTimestamp()
         oneway void asynchronousJob()
     }
+
+
+## Howto Run
+
+### Python Server & PHOi Client
+* cd server && python PythonServer.py
+* Call client/PhpClientSocket.php from your browser
+
+
+### Python Server & Python Client
+* cd server && python PythonServer.py
+* cd client && python PythonClient.py
+
+
+### PHP  Server & PHP Client
+Note that asynchronous method doesnt work with PHP HTTP Server
+* Call client/PhpClientHttp.php from your browser
+
