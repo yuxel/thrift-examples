@@ -47,7 +47,7 @@ tfactory = TTransport.TBufferedTransportFactory()
 pfactory = TBinaryProtocol.TBinaryProtocolFactory()
 
 # set server
-server = TServer.TSimpleServer(processor, transport, tfactory, pfactory)
+server = TServer.TThreadedServer(processor, transport, tfactory, pfactory)
 
 print 'Starting server'
 server.serve()
