@@ -28,7 +28,7 @@ This is the example service DDL, which has 2 methods. One to return current time
 
 ## Howto Run
 
-### Python Server & PHOi Client
+### Python Server & PHP Client
 * cd server && python PythonServer.py
 * Call client/PhpClientSocket.php from your browser
 
@@ -40,5 +40,6 @@ This is the example service DDL, which has 2 methods. One to return current time
 
 ### PHP  Server & PHP Client
 Note that asynchronous method doesnt work with PHP HTTP Server
+
 * Call client/PhpClientHttp.php from your browser
 
