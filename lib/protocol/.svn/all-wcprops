@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/php/src/protocol
+END
+TBinaryProtocol.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/php/src/protocol/TBinaryProtocol.php
+END
+TProtocol.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/php/src/protocol/TProtocol.php
+END

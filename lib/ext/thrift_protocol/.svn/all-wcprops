@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/asf/!svn/ver/920662/incubator/thrift/trunk/lib/php/src/ext/thrift_protocol
+END
+config.m4
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/793630/incubator/thrift/trunk/lib/php/src/ext/thrift_protocol/config.m4
+END
+php_thrift_protocol.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/920662/incubator/thrift/trunk/lib/php/src/ext/thrift_protocol/php_thrift_protocol.cpp
+END
+php_thrift_protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/760189/incubator/thrift/trunk/lib/php/src/ext/thrift_protocol/php_thrift_protocol.h
+END
