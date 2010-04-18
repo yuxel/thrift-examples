@@ -26,7 +26,18 @@ This is the example service DDL, which has 2 methods. One to return current time
     }
 
 
-## Howto Run
+
+
+
+## How to run
+
+First you need to create "generated" files using these commands below
+
+    thrift --gen php:server Example.thrift
+    thrift --gen py Example.thrift
+
+Note: You need to comment out the line "include_once $GLOBALS['THRIFT_ROOT'].'/packages/Example/Example_types.php';" from file gen-php/Example/Example.php 
+
 
 ### Python Server & PHP Client
 * cd server && python PythonServer.py
